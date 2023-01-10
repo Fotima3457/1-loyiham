@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Navbar from "./Components/navbar"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./Components/Home"
+import Contact from "./Components/Contact"
+import About from "./Components/About"
+import Food from "./menu/food";
+import Salat from "./menu/salat";
+import Suv from "./menu/suv";
+import Shirin from "./menu/shirin";
+import Salom from "./Components/Form"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <switch>
+        <Navbar />
+        <Route exact path="/form" component={Salom} />
+        <Route path="/home" component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/shirin" component={Shirin} />
+        <Route path="/salat" component={Salat} />
+        <Route path="/suv" component={Suv} />
+        <Route path="/food" component={Food} />
+      </switch>
+
+    </BrowserRouter>
   );
 }
-
 export default App;

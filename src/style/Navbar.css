@@ -1,0 +1,219 @@
+.Img {
+
+    height: 30px;
+    display: inline;
+}
+
+.div {
+    background-color: white;
+
+
+}
+
+#id {
+    position: fixed;
+}
+
+#soz {
+    color: rgb(255, 75, 75);
+    font-family: arial black;
+    font-size: 25px;
+}
+
+
+
+#soz2 {
+    color: rgb(255, 75, 75);
+    ;
+    font-family: arial black;
+    font-size: 25px;
+}
+
+.bac {
+    background-color: black;
+    height: 880px;
+    padding-top: 15%;
+
+}
+
+.suv {
+    width: 1500px;
+    height: 708px;
+}
+
+.salat {
+    width: 1500px;
+}
+
+.IMG2 {
+    width: 1400px;
+    margin-left: 50px;
+}
+
+.IMG3 {
+    width: 1400px;
+    margin-left: 50px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.img1 {
+    margin-left: 27%;
+    position: relative;
+    margin-top: 10%;
+    height: 500px;
+    width: 580px;
+
+}
+
+
+.img2 {
+    margin-top: -55%;
+    position: relative;
+}
+
+.img3 {
+    margin-top: 0%;
+    margin-left: -85%;
+    position: absolute;
+}
+
+.img4 {
+    position: relative;
+    margin-top: -17%;
+    margin-left: 3.5%;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: 35.8%;
+    margin-top: -22.5%;
+}
+
+.img11 {
+    position: relative;
+    margin-top: -500px;
+    margin-right: 5%;
+    color: rgb(255, 75, 75);
+    ;
+    font-size: 50px;
+    font-family: arial black;
+}
+
+#f {
+    position: absolute;
+    color: rgb(255, 75, 75);
+    text-decoration: none;
+    font-family: arial black;
+    margin-left: 13%;
+    margin-top: -10.5%;
+
+}
+
+#d {
+    position: relative;
+    margin-left: 70%;
+    text-decoration: none;
+    color: rgb(255, 75, 75);
+    font-family: arial black;
+
+}
+
+#b {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -23%;
+    text-decoration: none;
+    color: rgb(255, 75, 75);
+    font-family: arial black;
+}
+
+#a {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 12%;
+    text-decoration: none;
+    color: rgb(255, 75, 75);
+    font-family: arial black;
+}
+
+.orm {
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(82, 82, 255);
+    margin-left: 35%;
+    margin-top: 8%;
+    padding: 3%;
+    padding-top: 5%;
+}
+
+#btn {
+    background-color: rgb(82, 82, 255);
+    color: white;
+    margin-top: 3%;
+    margin-left: 18%;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+
+}
+
+#btn1 {
+    background-color: rgb(244, 55, 55);
+    color: white;
+    margin-top: 3%;
+    margin-left: 45%;
+    border: 2px solid white;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+
+}
+
+#btn2 {
+    background-color: rgb(244, 55, 55);
+    color: white;
+    margin-top: 1%;
+    margin-left: 45%;
+    border: 2px solid white;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.hozir {
+    font-family: arial black;
+    color: rgb(244, 55, 55);
+    margin-top: 2%;
+    font-size: 40px;
+}
+.inputlar{
+    margin-top: 5%;
+}
+
+.inp1 {
+    color: rgb(244, 55, 55);
+    height: 50px;
+    padding-left: 1%;
+}
+
+.nechta {
+    width: 50px;
+    height: 50px;
+}
+.suvul{
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: auto auto auto ;
+}
+.Cardimg{
+    width: 200px;
+    height:200px;
+
+}
+.div2{
+    margin-top: 5%;
+}
