@@ -33,7 +33,7 @@ export default function Contact() {
 
   return (
     <div align="center">
-      <Button id='butm' onClick={handleOpen}>Menuni kiriting...</Button>
+      <Button id='butm' onClick={handleOpen}>Meni bosing...</Button>
       <p className='p3'>Fast-Food:<span>{raz}{raz1}</span> </p>
       <p className='p3'> Sweets:<span>{bir}{bir2}</span> </p>
       <p className='p3' > Drink:<span>{ikki}{ikki3}</span> </p>
@@ -47,7 +47,7 @@ export default function Contact() {
       >
         <Box sx={style} style={{ height: "600px", width: "500px" }}>
           <div align="center">
-            <p style={{ fontSize: "25px", color: "red", fontfamily: "arail black" }}>Buyurtma nomlarini kiriting</p>
+            <p style={{ fontSize: "25px", color: "black", fontfamily: "arail black" }}>Buyurtma nomlarini kiriting</p>
             <label htmlFor="">Fast-Food</label> <br />
             <input className='inp1' type="text" name="" id="" onChange={e => setRaz(e.target.value)} placeholder='Fast-Food' /> <label htmlFor="">Soni</label> <input className='nechta' type="number" name="" onChange={e => setRaz1(e.target.value)} id="" />   <br />
             <label htmlFor="">Sweets</label> <br />

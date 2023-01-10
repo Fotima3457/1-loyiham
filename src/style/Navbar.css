@@ -143,20 +143,39 @@
 .orm {
     width: 400px;
     height: 400px;
-    border: 2px dotted black;
     margin-left: 35%;
-    margin-top: 8%;
     padding: 3%;
-    padding-top: 5%;
+    padding-top: 10%;
+}
+#formdiv{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height:780px;
+}
+#navbardiv{
+    background-image: url(../img/goog.jpg);
+    height: 700px;
+    background-size:cover;
+    width: 100%;
+}
+#nextpage{
+    background-color: white;
+    width:250px;
+    padding: 1.5%;
+    color:rebeccapurple;
+    margin-top:18%;
+    font-size: 20px;
+    align-items: center;
 }
 
 #btn {
-    background-color:black;
-    color: white;
+    background-color:white;
+    color:black;
     margin-top: 3%;
     margin-left: 18%;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 150px;
+    font-family: arial black;
     height: 50px;
     text-decoration: none;
 

@@ -4,14 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Img from "../img/bosh icon.png";
-
+import "../img/goog.jpg"
 import "../style/Navbar.css"
 
 
 function expand() {
   return (
-    <div className='div'>
-
+    <div>
+    <div className='div' >
       <Navbar id='bir' key={expand} bg="light" expand={expand} className="mb-3">
         <Container fluid>
           <Navbar.Brand href="#"><img className='Img' src={Img} alt="" /></Navbar.Brand>
@@ -33,6 +33,7 @@ function expand() {
         </Container>
       </Navbar>
      
+    </div>
     </div>
   )
 }

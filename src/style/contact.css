@@ -1,21 +1,21 @@
 label{
-    color:red
+    color:black
 }
 input{
     width: 250px;
     height: 50px;
-    color:red;
+    color:black;
     border-radius: 12px;
-    border:1px solid red;
+    border:2px dotted black;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
 }
 button{
-    color:red;
+    color:black;
     padding: 2.5%;
-    border:1px solid red;
+    border:2px solid black;
     margin-top: 4%;
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -24,14 +24,14 @@ button{
     -o-border-radius: 12px;
 }
 #butm{
-    color:red;
     font-size: 40px;
+    color:red;
     margin-top: 8%;
-    font-family: arial black;
+    font-weight: lighter;
 }
 .p3{
     font-size: 30px;
-    color:red;
-    font-family: arial black;
+    color:black;
+    font-weight: lighter;
 
 }

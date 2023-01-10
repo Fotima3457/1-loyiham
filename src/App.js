@@ -3,6 +3,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./Components/navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Components/Home"
+import "./img/goog.jpg"
+import "./style/Navbar.css"
 import Contact from "./Components/Contact"
 import About from "./Components/About"
 import Food from "./menu/food";
@@ -24,7 +26,9 @@ function App() {
         <Route path="/suv" component={Suv} />
         <Route path="/food" component={Food} />
       </switch>
-
+    <div align="center" id="navbardiv">
+    <button id="nextpage">Next Page</button>
+    </div>
     </BrowserRouter>
   );
 }
