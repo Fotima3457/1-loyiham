@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, } from "react-router-dom";
 import Navbar from "./Components/navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Components/Home"
+import A from "./Components/a.js"
 import "./img/goog.jpg"
 import "./style/Navbar.css"
 import Contact from "./Components/Contact"
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
       <switch>
         <Navbar />
+        <Route exact path="/"  component={A}/>
         <Route exact path="/form" component={Salom} />
         <Route path="/home" component={Home} />
         <Route path="/contact" component={Contact} />
@@ -26,9 +28,6 @@ function App() {
         <Route path="/suv" component={Suv} />
         <Route path="/food" component={Food} />
       </switch>
-    <div align="center" id="navbardiv">
-    <button id="nextpage">Next Page</button>
-    </div>
     </BrowserRouter>
   );
 }

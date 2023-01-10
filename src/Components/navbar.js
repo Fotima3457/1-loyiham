@@ -25,7 +25,7 @@ function expand() {
               
                 <Nav.Link href="/form" id='soz'>Home</Nav.Link>
                 <Nav.Link href="/home" id='soz'>Menu</Nav.Link>
-                <Nav.Link href="/contact" id='soz2'>Buyurtma berish</Nav.Link>
+                <Nav.Link href="/contact" id='soz2'>Placing an order</Nav.Link>
               </Nav>
              
             </Offcanvas.Body>
